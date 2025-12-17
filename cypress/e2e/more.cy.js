@@ -24,22 +24,3 @@ describe('More Button', () => {
 
 });
 
-
-// describe('More Button', () => {
-
-//   const more = new MorePage();
-
-//   beforeEach(() => cy.visit('/'));
-
-//   it('TC-42', () => {
-//     more.openNewsTab();
-//     more.clickMore();
-//     more.verifyRedirect();
-//   });
-
-//   it('TC-43', () => {
-//     more.openNewsTab();
-//     more.clickMore();
-//     cy.url().should('not.include', '/wrong-url');
-//   });
-// });
