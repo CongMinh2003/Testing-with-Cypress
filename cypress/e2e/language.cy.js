@@ -29,26 +29,3 @@ describe('Language Switch', () => {
 });
 
 
-// describe('Language Switch', () => {
-
-//   const lang = new LanguagePage();
-
-//   beforeEach(() => cy.visit('/'));
-
-//   it('TC-39', () => {
-//     lang.openDropdown();
-//     lang.verifyLanguages();
-//   });
-
-//   it('TC-40', () => {
-//     lang.openDropdown();
-//     lang.select(2);
-//     lang.verifyText('Home');
-//   });
-
-//   it('TC-41', () => {
-//     lang.openDropdown();
-//     lang.select(1);
-//     lang.verifyText('Trang chủ');
-//   });
-// });
